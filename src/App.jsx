@@ -1,7 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import ToggleButton from './ToggleButtons';
-import Map from './Map';
+import ArrayMethords from './ArrayMethords';
+import SpreadOperator from './SpreadOperator';
+import Destructuring from './Destructuring';
 function App() {
   return (
     <>
@@ -9,7 +10,9 @@ function App() {
         <div className="row">
           <div className="col-12">
             {/* <ToggleButton /> */}
-            <Map />
+            {/* <ArrayMethords /> */}
+            <SpreadOperator />
+            {/* <Destructuring /> */}
           </div>
         </div>
       </div>
