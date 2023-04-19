@@ -1,30 +1,18 @@
 import React from 'react'
-const MapMethort = [
-    {
-        id: 1,
-        name: "rajveer"
-    },
-    {
-        id: 3,
-        name: "rajveer"
-    }, {
-        id: 2,
-        name: "rajveer"
-    }
-]
-
+import Arrays from ".//Arrays.json"
 const Map = () => {
+
     const handelclick = (ids) => {
-        const handelDelete = MapMethort.filter((id) => {
+        const handelDelete = Arrays.filter((id) => {
             console.log(id);
             return id !== ids
         })
-        console.log(handelDelete);
+        console.log("handle delete == ", handelDelete);
     }
     return (
         <>
             {
-                MapMethort.map((event) => (
+                Arrays.map((event) => (
                     <>
                         <tr>
                             <td>{event.id}</td>
@@ -34,17 +22,13 @@ const Map = () => {
                 ))
             }
             {
-                MapMethort.map((event) => {
+                Arrays.map((event) => {
                     return (
-                        <>
-                            <tr>
-
-                                <td>{event.id}</td>
-                                <td>{event.name}</td>
-                                <button onClick={() => handelclick(event.id)}>click</button>
-                            </tr>
-
-                        </>
+                        <tr>
+                            <td>{event.id}</td>
+                            <td>{event.name}</td>
+                            <button onClick={() => handelclick(event.id)}>click</button>
+                        </tr>
                     )
                 })
             }
