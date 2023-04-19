@@ -16,7 +16,7 @@ const ToggleButton = () => {
                 }
                 onClick={handleClick}
             >
-                Click
+                {isToggleColor ? "pink" : "green"}
             </button>
         </div>
     )
