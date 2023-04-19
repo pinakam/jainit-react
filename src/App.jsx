@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import ToggleButton from './ ToggleButton';
-
+import ToggleButton from './ToggleButtons';
 function App() {
   return (
     <>
