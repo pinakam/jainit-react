@@ -4,9 +4,9 @@ import ArrayMethords from './J.s-Basic/ArrayMethords';
 import SpreadOperator from './J.s-Basic/SpreadOperator';
 import Destructuring from './J.s-Basic/Destructuring';
 // import Object from './ObjectDestucturing';
-import ClassConstructor from './OOP-Concepsts/ClassConstructor';
-import Objects from './OOP-Concepsts/Objects';
-import Inheritance from './OOP-Concepsts/Inheritance';
+import ClassConstructor from './OOP-Concepts/ClassConstructor';
+import Objects from './OOP-Concepts/Objects';
+import Inheritance from './OOP-Concepts/Inheritance';
 function App() {
   return (
     <>
