@@ -3,6 +3,7 @@ import ToggleButton from './ToggleButtons';
 import ArrayMethords from './ArrayMethords';
 import SpreadOperator from './SpreadOperator';
 import Destructuring from './Destructuring';
+import Object from './ObjectDestucturing';
 function App() {
   return (
     <>
@@ -11,8 +12,9 @@ function App() {
           <div className="col-12">
             {/* <ToggleButton /> */}
             {/* <ArrayMethords /> */}
-            <SpreadOperator />
+            {/* <SpreadOperator /> */}
             {/* <Destructuring /> */}
+            <Object />
           </div>
         </div>
       </div>
