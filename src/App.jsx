@@ -1,9 +1,12 @@
 import './App.css';
-import ToggleButton from './ToggleButtons';
-import ArrayMethords from './ArrayMethords';
-import SpreadOperator from './SpreadOperator';
-import Destructuring from './Destructuring';
-import Object from './ObjectDestucturing';
+import ToggleButton from './J.s-Basic/ToggleButtons';
+import ArrayMethords from './J.s-Basic/ArrayMethords';
+import SpreadOperator from './J.s-Basic/SpreadOperator';
+import Destructuring from './J.s-Basic/Destructuring';
+// import Object from './ObjectDestucturing';
+import ClassConstructor from './OOP-Concepsts/ClassConstructor';
+import Objects from './OOP-Concepsts/Objects';
+import Inheritance from './OOP-Concepsts/Inheritance';
 function App() {
   return (
     <>
@@ -14,7 +17,10 @@ function App() {
             {/* <ArrayMethords /> */}
             {/* <SpreadOperator /> */}
             {/* <Destructuring /> */}
-            <Object />
+            {/* <Object /> */}
+            {/* <ClassConstructor /> */}
+            {/* <Objects /> */}
+            <Inheritance />
           </div>
         </div>
       </div>
