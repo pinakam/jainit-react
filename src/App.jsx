@@ -1,13 +1,13 @@
 import './App.css';
-import ToggleButton from './J.s-Basic/ToggleButtons';
-import ArrayMethords from './J.s-Basic/ArrayMethords';
-import SpreadOperator from './J.s-Basic/SpreadOperator';
-import Destructuring from './J.s-Basic/Destructuring';
-// import Object from './ObjectDestucturing';
-import ClassConstructor from './OOP-Concepts/ClassConstructor';
-import Objects from './OOP-Concepts/Objects';
-import Inheritance from './OOP-Concepts/Inheritance';
-import Dates from './DEMO/Dates';
+// import ToggleButton from './J.s-Basic/ToggleButtons';
+// import ArrayMethords from './J.s-Basic/ArrayMethords';
+// import SpreadOperator from './J.s-Basic/SpreadOperator';
+// import Destructuring from './J.s-Basic/Destructuring';
+// // import Object from './ObjectDestucturing';
+// import ClassConstructor from './OOP-Concepts/ClassConstructor';
+// import Objects from './OOP-Concepts/Objects';
+// import Inheritance from './OOP-Concepts/Inheritance';
+import MapMethord from './map-methord/MapMethord';
 function App() {
   return (
     <>
@@ -22,7 +22,7 @@ function App() {
             {/* <ClassConstructor /> */}
             {/* <Objects /> */}
             {/* <Inheritance /> */}
-            <Dates />
+            <MapMethord />
           </div>
         </div>
       </div>
