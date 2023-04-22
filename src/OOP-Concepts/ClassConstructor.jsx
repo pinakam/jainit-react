@@ -16,5 +16,4 @@ const ClassConstructor = () => {
         </div>
     )
 }
-
 export default ClassConstructor

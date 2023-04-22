@@ -7,6 +7,7 @@ import Destructuring from './J.s-Basic/Destructuring';
 import ClassConstructor from './OOP-Concepts/ClassConstructor';
 import Objects from './OOP-Concepts/Objects';
 import Inheritance from './OOP-Concepts/Inheritance';
+import Dates from './DEMO/Dates';
 function App() {
   return (
     <>
@@ -20,7 +21,8 @@ function App() {
             {/* <Object /> */}
             {/* <ClassConstructor /> */}
             {/* <Objects /> */}
-            <Inheritance />
+            {/* <Inheritance /> */}
+            <Dates />
           </div>
         </div>
       </div>
