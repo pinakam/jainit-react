@@ -1,7 +1,6 @@
 import React from 'react'
 import { JSON } from '../jsondata/ProductJson';
 const MapMethord = () => {
-    console.log(JSON.products);
     const product = JSON.products
     return (
         <>
