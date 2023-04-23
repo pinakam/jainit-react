@@ -29,8 +29,8 @@ const ItemData = () => {
                 <label for="validationCustom04" class="form-label"> All Catagery</label>
                 <select class="form-select " id="validationCustom04" onChange={(e) => handelDropdown(e)}>
                     {
-                        items.map((item) => {
-                            return <option value={item} > {item}</option>
+                        items.map((item, i) => {
+                            return <option value={item} key={i} > {item}</option>
                         })
                     }
                 </select>
@@ -47,15 +47,15 @@ const ItemData = () => {
                                     <div class="card" style={{ width: "21rem" }}>
                                         <div className="row">
                                             {
-                                                e.images.map((imgs) => ((
-                                                    <div className="col-6">
+                                                e.images.map((imgs, i) => ((
+                                                    <div className="col-6" key={i}>
                                                         <img src={imgs} class="card-img-top d-flex" alt="..." style={{ width: "125px" }} />
                                                     </div>
                                                 )))
                                             }
 
                                         </div>
-                                        <div class="card-body">
+                                        <div class="card-body" key={e.id}>
                                             <h4>{e.brand}</h4>
                                             <h5 class="card-title">{e.title}</h5>
                                             <p class="card-text">{e.description}</p>
