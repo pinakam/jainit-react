@@ -24,8 +24,8 @@ function App() {
             {/* <ClassConstructor /> */}
             {/* <Objects /> */}
             {/* <Inheritance /> */}
-            {/* <SearchFunctionlity /> */}
-            <ItemData />
+            <SearchFunctionlity />
+            {/* <ItemData /> */}
           </div>
         </div>
       </div>
