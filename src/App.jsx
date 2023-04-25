@@ -1,4 +1,5 @@
 import './App.css';
+import ItemData from './itemdata-dropdown/ItemData';
 // import ToggleButton from './J.s-Basic/ToggleButtons';
 // import ArrayMethords from './J.s-Basic/ArrayMethords';
 // import SpreadOperator from './J.s-Basic/SpreadOperator';
@@ -8,6 +9,8 @@ import './App.css';
 // import Objects from './OOP-Concepts/Objects';
 // import Inheritance from './OOP-Concepts/Inheritance';
 import MapMethord from './map-methord/MapMethord';
+// import Dates from './DEMO/Dates';
+import SearchFunctionlity from './search-function/SearchFunctionlity';
 function App() {
   return (
     <>
@@ -23,6 +26,8 @@ function App() {
             {/* <Objects /> */}
             {/* <Inheritance /> */}
             <MapMethord />
+            <SearchFunctionlity />
+            <ItemData />
           </div>
         </div>
       </div>
