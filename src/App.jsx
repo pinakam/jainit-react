@@ -1,4 +1,5 @@
 import './App.css';
+import Navbar from './item/api-navabar';
 import ItemData from './itemdata-dropdown/ItemData';
 // import ToggleButton from './J.s-Basic/ToggleButtons';
 // import ArrayMethords from './J.s-Basic/ArrayMethords';
@@ -25,9 +26,10 @@ function App() {
             {/* <ClassConstructor /> */}
             {/* <Objects /> */}
             {/* <Inheritance /> */}
-            <MapMethord />
-            <SearchFunctionlity />
-            <ItemData />
+            {/* <MapMethord /> */}
+            {/* <SearchFunctionlity /> */}
+            {/* <ItemData /> */}
+            <Navbar />
           </div>
         </div>
       </div>

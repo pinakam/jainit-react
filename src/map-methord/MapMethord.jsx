@@ -1,5 +1,5 @@
 import React from 'react'
-import { JSON } from '../jsondata/ProductJson';
+import { JSON } from '../json-data/ProductJson ';
 const MapMethord = () => {
     const product = JSON.products
     return (
