@@ -1,6 +1,10 @@
 import './App.css';
-import Navbar from './item/api-navabar';
+import Navbar from './item-navbar/ApiNavabar';
 import ItemData from './itemdata-dropdown/ItemData';
+import CaroselImg from './items-image/CaroselImg';
+import Images from './items-image/Images';
+import SelectCountary from './items-image/SelectCountary';
+// import { AmazonTshirt } from './json-data/ProductJson ';
 // import ToggleButton from './J.s-Basic/ToggleButtons';
 // import ArrayMethords from './J.s-Basic/ArrayMethords';
 // import SpreadOperator from './J.s-Basic/SpreadOperator';
@@ -12,6 +16,7 @@ import ItemData from './itemdata-dropdown/ItemData';
 import MapMethord from './map-methord/MapMethord';
 // import Dates from './DEMO/Dates';
 import SearchFunctionlity from './search-function/SearchFunctionlity';
+import AmazonTshirt from './product-tshirt/AmazonTshirt';
 function App() {
   return (
     <>
@@ -29,7 +34,11 @@ function App() {
             {/* <MapMethord /> */}
             {/* <SearchFunctionlity /> */}
             {/* <ItemData /> */}
-            <Navbar />
+            {/* <Navbar /> */}
+            {/* <CaroselImg /> */}
+            {/* <Images /> */}
+            {/* <SelectCountary /> */}
+            <AmazonTshirt />
           </div>
         </div>
       </div>
