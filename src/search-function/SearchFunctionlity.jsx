@@ -29,7 +29,6 @@ const SearchFunctionlity = () => {
                 </div>
             </nav>
             {/* Products page  */}
-
             <div className="container">
                 <div className="row mt-5">
                     {
@@ -76,8 +75,7 @@ const SearchFunctionlity = () => {
                                             </div>
                                         </div>
                                     </div>
-                                )))
-                    }
+                                )))}
                 </div>
             </div >
 

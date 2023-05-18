@@ -17,6 +17,8 @@ import MapMethord from './map-methord/MapMethord';
 // import Dates from './DEMO/Dates';
 import SearchFunctionlity from './search-function/SearchFunctionlity';
 import AmazonTshirt from './product-tshirt/AmazonTshirt';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import AboutTshirt from './product-tshirt/AboutTshirt';
 function App() {
   return (
     <>
@@ -38,7 +40,13 @@ function App() {
             {/* <CaroselImg /> */}
             {/* <Images /> */}
             {/* <SelectCountary /> */}
-            <AmazonTshirt />
+            <BrowserRouter>
+              <Routes>
+                <Route path="/" element={<AmazonTshirt />} />
+                <Route path='/Tshirt/:id' element={<AboutTshirt />} />
+                {/* <Route path='' /> */}
+              </Routes>
+            </BrowserRouter>
           </div>
         </div>
       </div>

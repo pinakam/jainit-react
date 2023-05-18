@@ -781,14 +781,14 @@ export const AmazonTshirtJSON = [
     rating: 4,
     varition: [
       {
-        size: "XXL",
+        size: ["XXL", "XXXL"],
         color: "black",
         image: "https://m.media-amazon.com/images/I/51K0XmUVDPL._UX522_.jpg",
         price: 800,
         discountPercentage: 60,
       },
       {
-        size: "XL",
+        size: ["XL", "XXL"],
         color: "blue",
         image:
           "https://m.media-amazon.com/images/I/81h32NQvVuL._SX522._SX._UX._SY._UY_.jpg",
@@ -796,7 +796,7 @@ export const AmazonTshirtJSON = [
         discountPercentage: 40,
       },
       {
-        size: "XXL",
+        size: ["XL", "XXL"],
         color: "red",
         image:
           "https://m.media-amazon.com/images/I/81Du0iT+WDL._SX522._SX._UX._SY._UY_.jpg",
