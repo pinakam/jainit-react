@@ -1,9 +1,9 @@
 import './App.css';
-import Navbar from './item-navbar/ApiNavabar';
-import ItemData from './itemdata-dropdown/ItemData';
-import CaroselImg from './items-image/CaroselImg';
-import Images from './items-image/Images';
-import SelectCountary from './items-image/SelectCountary';
+// import Navbar from './item-navbar/ApiNavabar';
+// import ItemData from './itemdata-dropdown/ItemData';
+// import CaroselImg from './items-image/CaroselImg';
+// import Images from './items-image/Images';
+// import SelectCountary from './items-image/SelectCountary';
 // import { AmazonTshirt } from './json-data/ProductJson ';
 // import ToggleButton from './J.s-Basic/ToggleButtons';
 // import ArrayMethords from './J.s-Basic/ArrayMethords';
@@ -13,12 +13,14 @@ import SelectCountary from './items-image/SelectCountary';
 // import ClassConstructor from './OOP-Concepts/ClassConstructor';
 // import Objects from './OOP-Concepts/Objects';
 // import Inheritance from './OOP-Concepts/Inheritance';
-import MapMethord from './map-methord/MapMethord';
-// import Dates from './DEMO/Dates';
-import SearchFunctionlity from './search-function/SearchFunctionlity';
-import AmazonTshirt from './product-tshirt/AmazonTshirt';
+// import MapMethord from './map-methord/MapMethord';
+// // import Dates from './DEMO/Dates';
+// import SearchFunctionlity from './search-function/SearchFunctionlity';
+// import AmazonTshirt from './product-tshirt/AmazonTshirt';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import AboutTshirt from './product-tshirt/AboutTshirt';
+// import AboutTshirt from './product-tshirt/AboutTshirt';
+// import UseState from './pages/hooks/usestate-hook';
+import UseEffects from './pages/hooks/useeffect-hook';
 function App() {
   return (
     <>
@@ -42,9 +44,11 @@ function App() {
             {/* <SelectCountary /> */}
             <BrowserRouter>
               <Routes>
-                <Route path="/" element={<AmazonTshirt />} />
-                <Route path='/Tshirt/:id' element={<AboutTshirt />} />
-                {/* <Route path='' /> */}
+                {/* <Route path="/" element={<AmazonTshirt />} /> */}
+                {/* <Route path='/Tshirt/:id' element={<AboutTshirt />} /> */}
+                {/* <Route path='/' element={<UseState />} /> */}
+                <Route path='/' element={<UseEffects />} />
+
               </Routes>
             </BrowserRouter>
           </div>
